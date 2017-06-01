@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="edu.itchii.plat2.MainActivity">
+
+        <item
+            android:id="@+id/action_create"
+            android:orderInCategory="100"
+            android:title="Crear nueva reservación"
+            app:showAsAction="never" />
+
+    <item
+        android:id="@+id/web"
+        android:orderInCategory="100"
+        android:title="Pagina web"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mapa"
+        android:orderInCategory="100"
+        android:title="Localizacion"
+        app:showAsAction="never" />
+    </menu>
